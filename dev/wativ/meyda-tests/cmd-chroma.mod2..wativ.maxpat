@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1714.0, 104.0, 1461.0, 967.0 ],
+		"rect" : [ 94.0, 79.0, 1461.0, 880.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 290.0, 74.0, 32.0, 22.0 ],
+					"text" : "path"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-290",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -61,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1726,11 +1738,11 @@
 					"patching_rect" : [ 987.5, 11.740000000000009, 264.969696969696997, 699.519999999999982 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "nslider",
 							"parameter_invisible" : 1,
 							"parameter_initial" : [ 60, 61, 62, 63, 64, 65, 66, 0, 67, 68, 69, 70 ],
 							"parameter_shortname" : "nslider",
-							"parameter_type" : 3
+							"parameter_type" : 3,
+							"parameter_longname" : "nslider"
 						}
 
 					}
@@ -2568,7 +2580,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 413.0, 107.0, 400.0, 220.0 ],
+					"patching_rect" : [ 445.0, 94.0, 529.0, 243.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -2621,8 +2633,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -3011,7 +3021,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 332.5, 324.0, 393.0, 324.0, 393.0, 113.0, 422.5, 113.0 ],
+					"midpoints" : [ 332.5, 324.0, 393.0, 324.0, 393.0, 113.0, 454.5, 113.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -3230,6 +3240,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -3333,7 +3350,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "cmd-chroma.mod1.wativ.js",
-				"bootpath" : "~/airPnP.wativ/dev.wativ/node-shell",
+				"bootpath" : "~/Documents/_Programming/airPnP/dev/wativ/meyda-tests",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
