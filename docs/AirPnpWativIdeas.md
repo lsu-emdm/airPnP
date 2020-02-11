@@ -19,7 +19,7 @@ Apophenia and Music...
 
 #### Ideas
 
-1. Use￼ audio feature extraction to generate standard notation and or graphical notation for musical comprehension and or performance￼ that can be implemented as a third party plug in accessable in many audio programs.
+1. Use￼ audio feature extraction to generate standard notation and or graphic notation for musical comprehension and or performance￼ that can be implemented as a third party plug in accessable in many audio programs.
 2. This includes the ability to route midi and or frequency information to digital instruments.
 3. The frequency information can be rounded into mod 12 pitch classes or as exact frequency rounded into just intonation or interpreted as scalable microtonal subdivisions￼ as desired.
 4. Goal number one: create a max patch that can take data provided from onset detection in chroma to produce standard notation￼
