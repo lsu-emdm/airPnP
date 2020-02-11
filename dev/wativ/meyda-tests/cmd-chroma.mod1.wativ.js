@@ -8,7 +8,7 @@ Max.post(`Loaded the ${path.basename(__filename)} script`);
 
 // Use the 'addHandler' function to register a function for a particular message
 Max.addHandler("bang", () => {
-	Max.post("Who you think you bangin'?");
+	Max.post("banp");
 });
 
 // Use the 'outlet' function to send messages out of node.script's outlet
@@ -27,37 +27,28 @@ Max.addHandler('write', (filename, text) => {
   });
 })
 
+Max.addHandler('path', () => {
+  cmd.get(`
+    source ~/.bash_profile
+    echo $PATH`,
+    (err, data, stderr) => {
+    console.log('Data : ',data);
+  });
+})
 
 Max.addHandler("chroma", () => {
+  // meyda whistle1.wav chroma > chroma2daMax.txt
   cmd.run(
-    'meyda /Users/wativ/airPnP.wativ/dev.wativ/node-shell/whistle1.wav chroma > /Users/wativ/airPnP.wativ/dev.wativ/node-shell/chroma2daMax.txt',
-      function(err, data, stderr){
-          console.log('chorma filed',data)
-      }
+    `
+    node_modules/meyda/bin/cli.js whistle1.wav chroma > chroma2daMax.txt
+    `
   );
-
-  cmd.get(
-      'ls',
-      function(err, data, stderr){
-          console.log('the current dir contains these files :\n\n',data)
-      }
-  );
-
-  //cmd.run('meyda /Users/wativ/Desktop/Meyda/39548__the-bizniss__whistle.wav chroma > /Users/wativ/Desktop/Meyda/chroma2daMax.txt');
 
   // cmd.get(
-  //     `
-  //         mkdir 'testdir'
-  //         cd testdir
-  //         ls
-  //     `,
+  //     'ls',
   //     function(err, data, stderr){
-  //         if (!err) {
-  //            console.log('the testdir dir contains these files :\n\n',data)
-  //         } else {
-  //            console.log('error', err)
-  //         }
-
+  //         console.log('the current dir contains these files :\n\n',data)
   //     }
   // );
+
 });
