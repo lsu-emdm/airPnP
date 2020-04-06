@@ -45,6 +45,8 @@ Max.addHandler("test", () => {
       }
   );
 
+  //cmd.run('meyda /Users/wativ/Desktop/Meyda/39548__the-bizniss__whistle.wav chroma > /Users/wativ/Desktop/Meyda/chroma2daMax.txt');
+
   // cmd.get(
   //     `
   //         mkdir 'testdir'
