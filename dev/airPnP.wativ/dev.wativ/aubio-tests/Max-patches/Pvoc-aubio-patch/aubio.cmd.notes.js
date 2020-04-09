@@ -46,9 +46,14 @@ Max.addHandler("pitch", () => {
   });
 })  
 
-  Max.addHandler('notes', (filename, text) => {
+  Max.addHandler('notes', (filename) => {
+    function pad2(n) {  // always returns a string  
+      return (n < 10 ? '0' : '') + n;
+      } 
+    let d = new Date()
+    let timestamp = d.getFullYear().toString() + pad2(d.getMonth() + 1) +  pad2(d.getDate()) + pad2(d.getHours()) + pad2(d.getMinutes()) + pad2(d.getSeconds()); 
     cmd.get(`
-    /Library/Frameworks/Python.framework/Versions/3.6/bin/aubio notes /Users/wativ/Desktop/airPnP.wativ.offline/dev/wativ/aubio-tests/${text} > ${filename} > aubio_notes_data1038.txt
+    /Library/Frameworks/Python.framework/Versions/3.6/bin/aubio notes /Users/wativ/Desktop/airPnP.wativ.offline/dev/wativ/aubio-tests/${filename} > aubio_notes_data${timestamp}.txt 
     `,
     (err, data, stderr) => {
         console.log('The File is : ',data);
