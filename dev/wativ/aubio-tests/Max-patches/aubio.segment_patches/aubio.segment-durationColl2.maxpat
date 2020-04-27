@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1794.0, 169.0, 1852.0, 967.0 ],
+		"rect" : [ 1714.0, 79.0, 1510.0, 964.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,247 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-144",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 944.200060999999778, 785.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-143",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 818.399994000000447, 785.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-142",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 705.399994000000447, 785.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-141",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 593.800037000000316, 785.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-135",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1189.700060999999778, 745.905944999999974, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1131.700060999999778, 745.905944999999974, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-133",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1073.700060999999778, 745.905944999999974, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1012.250097999999753, 745.905944999999974, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1094.200060999999778, 612.811889999999948, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 1078.450060999999778, 715.311889999999948, 61.0, 22.0 ],
+					"text" : "unjoin 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1078.450060999999778, 682.405944999999974, 50.0, 22.0 ],
+					"text" : "0 0 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-26",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 684.000080399999774, 467.405944999999974, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 733.000080399999774, 584.405944999999974, 37.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 638.000080399999774, 467.405944999999974, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-69",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 638.000080399999774, 584.405944999999974, 83.0, 22.0 ],
+					"text" : "getcolumn $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-71",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 638.000080399999774, 555.405944999999974, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 638.000080399999774, 494.405944999999974, 65.0, 22.0 ],
+					"text" : "metro 300"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 638.000080399999774, 524.405944999999974, 85.0, 22.0 ],
+					"text" : "counter 0 0 16"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"columns" : 16,
+					"id" : "obj-75",
+					"maxclass" : "matrixctrl",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "list", "list" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 638.000080399999774, 621.905944999999974, 341.0, 135.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-66",
@@ -46,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 965.800066999999672, 612.811889999999948, 36.0, 23.0 ],
+					"patching_rect" : [ 944.200060999999778, 814.717834999999923, 36.0, 23.0 ],
 					"text" : "next"
 				}
 
@@ -60,7 +301,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.000000000000227, 614.905944999999974, 36.0, 23.0 ],
+					"patching_rect" : [ 818.399994000000447, 816.811889999999948, 36.0, 23.0 ],
 					"text" : "next"
 				}
 
@@ -74,7 +315,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 727.000000000000227, 614.905944999999974, 36.0, 23.0 ],
+					"patching_rect" : [ 705.399994000000447, 816.811889999999948, 36.0, 23.0 ],
 					"text" : "next"
 				}
 
@@ -88,7 +329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.400043000000096, 614.905944999999974, 36.0, 23.0 ],
+					"patching_rect" : [ 593.800037000000316, 816.811889999999948, 36.0, 23.0 ],
 					"text" : "next"
 				}
 
@@ -100,7 +341,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 840.000000000000227, 645.0, 99.0, 22.0 ],
+					"patching_rect" : [ 818.399994000000447, 846.905944999999974, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -116,7 +357,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 965.800066999999672, 645.0, 87.799988000000212, 22.0 ],
+					"patching_rect" : [ 944.200060999999778, 846.905944999999974, 87.799988000000212, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -132,7 +373,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 727.000000000000227, 645.0, 89.0, 22.0 ],
+					"patching_rect" : [ 705.399994000000447, 846.905944999999974, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -193,7 +434,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 139.0, 220.0, 1443.0, 711.0 ],
+						"rect" : [ 34.0, 236.0, 1443.0, 711.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -446,7 +687,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1027.799988000000212, 550.905944999999974, 50.0, 22.0 ],
-									"text" : "408"
+									"text" : "188"
 								}
 
 							}
@@ -458,7 +699,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 761.799988000000212, 555.905944999999974, 50.0, 22.0 ],
-									"text" : "408"
+									"text" : "188"
 								}
 
 							}
@@ -470,7 +711,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 500.0, 556.905944999999974, 50.0, 22.0 ],
-									"text" : "408"
+									"text" : "188"
 								}
 
 							}
@@ -686,7 +927,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 263.200012000000243, 550.905944999999974, 50.0, 22.0 ],
-									"text" : "408"
+									"text" : "188"
 								}
 
 							}
@@ -1105,7 +1346,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 326.599987000000056, 229.0, 448.0, 22.0 ],
-									"text" : "aubiosegment-1.408 BuildRiverJoe_0044.903764.wav 4327.006803 2 44100."
+									"text" : "13975.782313"
 								}
 
 							}
@@ -1906,7 +2147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 740.016702666666333, 414.5, 156.766642666666598, 33.0 ],
+					"patching_rect" : [ 733.000080399999774, 378.0, 156.766642666666598, 33.0 ],
 					"text" : "Sort Into Size"
 				}
 
@@ -1918,7 +2159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 615.400043000000096, 645.0, 92.0, 22.0 ],
+					"patching_rect" : [ 593.800037000000316, 846.905944999999974, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
@@ -2699,7 +2940,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.600036000000955, 530.0, 201.0, 22.0 ],
-					"text" : "set aubiosegment-1.153"
+					"text" : "set aubiosegment-1.1"
 				}
 
 			}
@@ -2857,414 +3098,194 @@
 , 			{
 				"box" : 				{
 					"embed_buffers" : 					{
-						"aubiosegment-1.1" : "BuildRiverJoe_0000.000000.wav",
-						"aubiosegment-1.2" : "BuildRiverJoe_0000.168118.wav",
-						"aubiosegment-1.3" : "BuildRiverJoe_0000.188617.wav",
-						"aubiosegment-1.4" : "BuildRiverJoe_0000.280431.wav",
-						"aubiosegment-1.5" : "BuildRiverJoe_0000.425896.wav",
-						"aubiosegment-1.6" : "BuildRiverJoe_0000.534150.wav",
-						"aubiosegment-1.7" : "BuildRiverJoe_0000.548934.wav",
-						"aubiosegment-1.8" : "BuildRiverJoe_0000.659932.wav",
-						"aubiosegment-1.9" : "BuildRiverJoe_0000.687800.wav",
-						"aubiosegment-1.10" : "BuildRiverJoe_0000.780000.wav",
-						"aubiosegment-1.11" : "BuildRiverJoe_0000.797302.wav",
-						"aubiosegment-1.12" : "BuildRiverJoe_0000.917392.wav",
-						"aubiosegment-1.13" : "BuildRiverJoe_0001.037052.wav",
-						"aubiosegment-1.14" : "BuildRiverJoe_0001.178866.wav",
-						"aubiosegment-1.15" : "BuildRiverJoe_0001.300295.wav",
-						"aubiosegment-1.16" : "BuildRiverJoe_0001.428435.wav",
-						"aubiosegment-1.17" : "BuildRiverJoe_0001.454580.wav",
-						"aubiosegment-1.18" : "BuildRiverJoe_0001.549819.wav",
-						"aubiosegment-1.19" : "BuildRiverJoe_0001.594218.wav",
-						"aubiosegment-1.20" : "BuildRiverJoe_0001.713515.wav",
-						"aubiosegment-1.21" : "BuildRiverJoe_0001.818685.wav",
-						"aubiosegment-1.22" : "BuildRiverJoe_0001.953084.wav",
-						"aubiosegment-1.23" : "BuildRiverJoe_0002.051383.wav",
-						"aubiosegment-1.24" : "BuildRiverJoe_0002.075850.wav",
-						"aubiosegment-1.25" : "BuildRiverJoe_0002.186644.wav",
-						"aubiosegment-1.26" : "BuildRiverJoe_0002.221701.wav",
-						"aubiosegment-1.27" : "BuildRiverJoe_0002.316531.wav",
-						"aubiosegment-1.28" : "BuildRiverJoe_0002.467846.wav",
-						"aubiosegment-1.29" : "BuildRiverJoe_0002.482676.wav",
-						"aubiosegment-1.30" : "BuildRiverJoe_0002.574626.wav",
-						"aubiosegment-1.31" : "BuildRiverJoe_0002.718730.wav",
-						"aubiosegment-1.32" : "BuildRiverJoe_0002.846780.wav",
-						"aubiosegment-1.33" : "BuildRiverJoe_0002.978209.wav",
-						"aubiosegment-1.34" : "BuildRiverJoe_0002.996916.wav",
-						"aubiosegment-1.35" : "BuildRiverJoe_0003.095737.wav",
-						"aubiosegment-1.36" : "BuildRiverJoe_0003.233764.wav",
-						"aubiosegment-1.37" : "BuildRiverJoe_0003.248095.wav",
-						"aubiosegment-1.38" : "BuildRiverJoe_0003.350975.wav",
-						"aubiosegment-1.39" : "BuildRiverJoe_0003.498912.wav",
-						"aubiosegment-1.40" : "BuildRiverJoe_0003.615760.wav",
-						"aubiosegment-1.41" : "BuildRiverJoe_0003.736417.wav",
-						"aubiosegment-1.42" : "BuildRiverJoe_0003.765283.wav",
-						"aubiosegment-1.43" : "BuildRiverJoe_0003.867370.wav",
-						"aubiosegment-1.44" : "BuildRiverJoe_0004.007143.wav",
-						"aubiosegment-1.45" : "BuildRiverJoe_0004.116803.wav",
-						"aubiosegment-1.46" : "BuildRiverJoe_0004.281202.wav",
-						"aubiosegment-1.47" : "BuildRiverJoe_0004.391429.wav",
-						"aubiosegment-1.48" : "BuildRiverJoe_0004.535261.wav",
-						"aubiosegment-1.49" : "BuildRiverJoe_0004.599932.wav",
-						"aubiosegment-1.50" : "BuildRiverJoe_0004.645215.wav",
-						"aubiosegment-1.51" : "BuildRiverJoe_0004.797800.wav",
-						"aubiosegment-1.52" : "BuildRiverJoe_0004.909229.wav",
-						"aubiosegment-1.53" : "BuildRiverJoe_0004.933878.wav",
-						"aubiosegment-1.54" : "BuildRiverJoe_0005.056304.wav",
-						"aubiosegment-1.55" : "BuildRiverJoe_0005.140975.wav",
-						"aubiosegment-1.56" : "BuildRiverJoe_0005.167120.wav",
-						"aubiosegment-1.57" : "BuildRiverJoe_0005.290862.wav",
-						"aubiosegment-1.58" : "BuildRiverJoe_0005.369841.wav",
-						"aubiosegment-1.59" : "BuildRiverJoe_0005.422857.wav",
-						"aubiosegment-1.60" : "BuildRiverJoe_0005.531927.wav",
-						"aubiosegment-1.61" : "BuildRiverJoe_0005.557710.wav",
-						"aubiosegment-1.62" : "BuildRiverJoe_0005.666735.wav",
-						"aubiosegment-1.63" : "BuildRiverJoe_0005.698798.wav",
-						"aubiosegment-1.64" : "BuildRiverJoe_0005.829773.wav",
-						"aubiosegment-1.65" : "BuildRiverJoe_0005.921950.wav",
-						"aubiosegment-1.66" : "BuildRiverJoe_0005.940930.wav",
-						"aubiosegment-1.67" : "BuildRiverJoe_0006.078050.wav",
-						"aubiosegment-1.68" : "BuildRiverJoe_0006.176712.wav",
-						"aubiosegment-1.69" : "BuildRiverJoe_0006.340068.wav",
-						"aubiosegment-1.70" : "BuildRiverJoe_0006.434989.wav",
-						"aubiosegment-1.71" : "BuildRiverJoe_0006.572063.wav",
-						"aubiosegment-1.72" : "BuildRiverJoe_0006.683991.wav",
-						"aubiosegment-1.73" : "BuildRiverJoe_0006.833379.wav",
-						"aubiosegment-1.74" : "BuildRiverJoe_0006.942698.wav",
-						"aubiosegment-1.75" : "BuildRiverJoe_0007.081134.wav",
-						"aubiosegment-1.76" : "BuildRiverJoe_0007.186848.wav",
-						"aubiosegment-1.77" : "BuildRiverJoe_0007.435669.wav",
-						"aubiosegment-1.78" : "BuildRiverJoe_0007.474286.wav",
-						"aubiosegment-1.79" : "BuildRiverJoe_0007.710748.wav",
-						"aubiosegment-1.80" : "BuildRiverJoe_0007.832449.wav",
-						"aubiosegment-1.81" : "BuildRiverJoe_0007.970159.wav",
-						"aubiosegment-1.82" : "BuildRiverJoe_0007.994807.wav",
-						"aubiosegment-1.83" : "BuildRiverJoe_0008.206712.wav",
-						"aubiosegment-1.84" : "BuildRiverJoe_0008.469864.wav",
-						"aubiosegment-1.85" : "BuildRiverJoe_0008.571814.wav",
-						"aubiosegment-1.86" : "BuildRiverJoe_0008.707120.wav",
-						"aubiosegment-1.87" : "BuildRiverJoe_0008.742426.wav",
-						"aubiosegment-1.88" : "BuildRiverJoe_0008.840930.wav",
-						"aubiosegment-1.89" : "BuildRiverJoe_0008.856757.wav",
-						"aubiosegment-1.90" : "BuildRiverJoe_0009.010136.wav",
-						"aubiosegment-1.91" : "BuildRiverJoe_0009.137211.wav",
-						"aubiosegment-1.92" : "BuildRiverJoe_0009.262585.wav",
-						"aubiosegment-1.93" : "BuildRiverJoe_0009.348617.wav",
-						"aubiosegment-1.94" : "BuildRiverJoe_0009.394898.wav",
-						"aubiosegment-1.95" : "BuildRiverJoe_0009.519252.wav",
-						"aubiosegment-1.96" : "BuildRiverJoe_0009.742517.wav",
-						"aubiosegment-1.97" : "BuildRiverJoe_0009.777846.wav",
-						"aubiosegment-1.98" : "BuildRiverJoe_0009.976168.wav",
-						"aubiosegment-1.99" : "BuildRiverJoe_0010.141837.wav",
-						"aubiosegment-1.100" : "BuildRiverJoe_0010.295601.wav",
-						"aubiosegment-1.101" : "BuildRiverJoe_0010.393469.wav",
-						"aubiosegment-1.102" : "BuildRiverJoe_0010.522948.wav",
-						"aubiosegment-1.103" : "BuildRiverJoe_0010.661882.wav",
-						"aubiosegment-1.104" : "BuildRiverJoe_0010.681156.wav",
-						"aubiosegment-1.105" : "BuildRiverJoe_0010.913401.wav",
-						"aubiosegment-1.106" : "BuildRiverJoe_0010.945306.wav",
-						"aubiosegment-1.107" : "BuildRiverJoe_0011.028844.wav",
-						"aubiosegment-1.108" : "BuildRiverJoe_0011.155850.wav",
-						"aubiosegment-1.109" : "BuildRiverJoe_0011.293129.wav",
-						"aubiosegment-1.110" : "BuildRiverJoe_0011.417710.wav",
-						"aubiosegment-1.111" : "BuildRiverJoe_0011.535782.wav",
-						"aubiosegment-1.112" : "BuildRiverJoe_0011.589501.wav",
-						"aubiosegment-1.113" : "BuildRiverJoe_0011.631723.wav",
-						"aubiosegment-1.114" : "BuildRiverJoe_0011.699252.wav",
-						"aubiosegment-1.115" : "BuildRiverJoe_0011.942857.wav",
-						"aubiosegment-1.116" : "BuildRiverJoe_0012.016349.wav",
-						"aubiosegment-1.117" : "BuildRiverJoe_0012.050068.wav",
-						"aubiosegment-1.118" : "BuildRiverJoe_0012.208594.wav",
-						"aubiosegment-1.119" : "BuildRiverJoe_0012.257687.wav",
-						"aubiosegment-1.120" : "BuildRiverJoe_0012.316780.wav",
-						"aubiosegment-1.121" : "BuildRiverJoe_0012.342109.wav",
-						"aubiosegment-1.122" : "BuildRiverJoe_0012.543220.wav",
-						"aubiosegment-1.123" : "BuildRiverJoe_0012.594717.wav",
-						"aubiosegment-1.124" : "BuildRiverJoe_0012.826485.wav",
-						"aubiosegment-1.125" : "BuildRiverJoe_0012.974762.wav",
-						"aubiosegment-1.126" : "BuildRiverJoe_0013.079501.wav",
-						"aubiosegment-1.127" : "BuildRiverJoe_0013.213447.wav",
-						"aubiosegment-1.128" : "BuildRiverJoe_0013.231587.wav",
-						"aubiosegment-1.129" : "BuildRiverJoe_0013.335828.wav",
-						"aubiosegment-1.130" : "BuildRiverJoe_0013.361066.wav",
-						"aubiosegment-1.131" : "BuildRiverJoe_0013.582517.wav",
-						"aubiosegment-1.132" : "BuildRiverJoe_0013.773651.wav",
-						"aubiosegment-1.133" : "BuildRiverJoe_0013.855351.wav",
-						"aubiosegment-1.134" : "BuildRiverJoe_0013.949138.wav",
-						"aubiosegment-1.135" : "BuildRiverJoe_0014.103968.wav",
-						"aubiosegment-1.136" : "BuildRiverJoe_0014.367483.wav",
-						"aubiosegment-1.137" : "BuildRiverJoe_0014.469524.wav",
-						"aubiosegment-1.138" : "BuildRiverJoe_0014.604671.wav",
-						"aubiosegment-1.139" : "BuildRiverJoe_0014.639955.wav",
-						"aubiosegment-1.140" : "BuildRiverJoe_0014.754218.wav",
-						"aubiosegment-1.141" : "BuildRiverJoe_0014.907007.wav",
-						"aubiosegment-1.142" : "BuildRiverJoe_0015.035351.wav",
-						"aubiosegment-1.143" : "BuildRiverJoe_0015.160113.wav",
-						"aubiosegment-1.144" : "BuildRiverJoe_0015.246236.wav",
-						"aubiosegment-1.145" : "BuildRiverJoe_0015.292540.wav",
-						"aubiosegment-1.146" : "BuildRiverJoe_0015.416327.wav",
-						"aubiosegment-1.147" : "BuildRiverJoe_0015.640045.wav",
-						"aubiosegment-1.148" : "BuildRiverJoe_0015.674807.wav",
-						"aubiosegment-1.149" : "BuildRiverJoe_0015.722925.wav",
-						"aubiosegment-1.150" : "BuildRiverJoe_0015.873923.wav",
-						"aubiosegment-1.151" : "BuildRiverJoe_0016.038980.wav",
-						"aubiosegment-1.152" : "BuildRiverJoe_0016.192993.wav",
-						"aubiosegment-1.153" : "BuildRiverJoe_0016.291156.wav",
-						"aubiosegment-1.154" : "BuildRiverJoe_0016.420431.wav",
-						"aubiosegment-1.155" : "BuildRiverJoe_0016.559524.wav",
-						"aubiosegment-1.156" : "BuildRiverJoe_0016.578889.wav",
-						"aubiosegment-1.157" : "BuildRiverJoe_0016.810612.wav",
-						"aubiosegment-1.158" : "BuildRiverJoe_0016.842948.wav",
-						"aubiosegment-1.159" : "BuildRiverJoe_0016.926168.wav",
-						"aubiosegment-1.160" : "BuildRiverJoe_0017.052880.wav",
-						"aubiosegment-1.161" : "BuildRiverJoe_0017.190635.wav",
-						"aubiosegment-1.162" : "BuildRiverJoe_0017.315238.wav",
-						"aubiosegment-1.163" : "BuildRiverJoe_0017.433333.wav",
-						"aubiosegment-1.164" : "BuildRiverJoe_0017.487143.wav",
-						"aubiosegment-1.165" : "BuildRiverJoe_0017.529365.wav",
-						"aubiosegment-1.166" : "BuildRiverJoe_0017.596893.wav",
-						"aubiosegment-1.167" : "BuildRiverJoe_0017.840680.wav",
-						"aubiosegment-1.168" : "BuildRiverJoe_0017.913900.wav",
-						"aubiosegment-1.169" : "BuildRiverJoe_0017.947460.wav",
-						"aubiosegment-1.170" : "BuildRiverJoe_0018.105578.wav",
-						"aubiosegment-1.171" : "BuildRiverJoe_0018.155283.wav",
-						"aubiosegment-1.172" : "BuildRiverJoe_0018.214104.wav",
-						"aubiosegment-1.173" : "BuildRiverJoe_0018.238957.wav",
-						"aubiosegment-1.174" : "BuildRiverJoe_0018.440816.wav",
-						"aubiosegment-1.175" : "BuildRiverJoe_0018.492154.wav",
-						"aubiosegment-1.176" : "BuildRiverJoe_0018.723991.wav",
-						"aubiosegment-1.177" : "BuildRiverJoe_0018.872109.wav",
-						"aubiosegment-1.178" : "BuildRiverJoe_0018.977052.wav",
-						"aubiosegment-1.179" : "BuildRiverJoe_0019.110499.wav",
-						"aubiosegment-1.180" : "BuildRiverJoe_0019.129048.wav",
-						"aubiosegment-1.181" : "BuildRiverJoe_0019.233583.wav",
-						"aubiosegment-1.182" : "BuildRiverJoe_0019.258503.wav",
-						"aubiosegment-1.183" : "BuildRiverJoe_0019.479728.wav",
-						"aubiosegment-1.184" : "BuildRiverJoe_0019.671111.wav",
-						"aubiosegment-1.185" : "BuildRiverJoe_0019.752766.wav",
-						"aubiosegment-1.186" : "BuildRiverJoe_0019.846440.wav",
-						"aubiosegment-1.187" : "BuildRiverJoe_0020.001429.wav",
-						"aubiosegment-1.188" : "BuildRiverJoe_0020.264853.wav",
-						"aubiosegment-1.189" : "BuildRiverJoe_0020.367143.wav",
-						"aubiosegment-1.190" : "BuildRiverJoe_0020.502154.wav",
-						"aubiosegment-1.191" : "BuildRiverJoe_0020.537460.wav",
-						"aubiosegment-1.192" : "BuildRiverJoe_0020.651474.wav",
-						"aubiosegment-1.193" : "BuildRiverJoe_0020.803923.wav",
-						"aubiosegment-1.194" : "BuildRiverJoe_0020.932562.wav",
-						"aubiosegment-1.195" : "BuildRiverJoe_0021.057528.wav",
-						"aubiosegment-1.196" : "BuildRiverJoe_0021.143855.wav",
-						"aubiosegment-1.197" : "BuildRiverJoe_0021.190204.wav",
-						"aubiosegment-1.198" : "BuildRiverJoe_0021.313537.wav",
-						"aubiosegment-1.199" : "BuildRiverJoe_0021.537528.wav",
-						"aubiosegment-1.200" : "BuildRiverJoe_0021.572132.wav",
-						"aubiosegment-1.201" : "BuildRiverJoe_0021.620408.wav",
-						"aubiosegment-1.202" : "BuildRiverJoe_0021.771746.wav",
-						"aubiosegment-1.203" : "BuildRiverJoe_0021.936190.wav",
-						"aubiosegment-1.204" : "BuildRiverJoe_0022.090454.wav",
-						"aubiosegment-1.205" : "BuildRiverJoe_0022.188934.wav",
-						"aubiosegment-1.206" : "BuildRiverJoe_0022.317982.wav",
-						"aubiosegment-1.207" : "BuildRiverJoe_0022.457120.wav",
-						"aubiosegment-1.208" : "BuildRiverJoe_0022.476553.wav",
-						"aubiosegment-1.209" : "BuildRiverJoe_0022.707868.wav",
-						"aubiosegment-1.210" : "BuildRiverJoe_0022.740612.wav",
-						"aubiosegment-1.211" : "BuildRiverJoe_0022.823651.wav",
-						"aubiosegment-1.212" : "BuildRiverJoe_0022.950091.wav",
-						"aubiosegment-1.213" : "BuildRiverJoe_0023.088209.wav",
-						"aubiosegment-1.214" : "BuildRiverJoe_0023.212290.wav",
-						"aubiosegment-1.215" : "BuildRiverJoe_0023.330839.wav",
-						"aubiosegment-1.216" : "BuildRiverJoe_0023.384512.wav",
-						"aubiosegment-1.217" : "BuildRiverJoe_0023.427029.wav",
-						"aubiosegment-1.218" : "BuildRiverJoe_0023.494626.wav",
-						"aubiosegment-1.219" : "BuildRiverJoe_0023.738549.wav",
-						"aubiosegment-1.220" : "BuildRiverJoe_0023.811383.wav",
-						"aubiosegment-1.221" : "BuildRiverJoe_0023.844830.wav",
-						"aubiosegment-1.222" : "BuildRiverJoe_0024.002766.wav",
-						"aubiosegment-1.223" : "BuildRiverJoe_0024.052653.wav",
-						"aubiosegment-1.224" : "BuildRiverJoe_0024.111678.wav",
-						"aubiosegment-1.225" : "BuildRiverJoe_0024.136259.wav",
-						"aubiosegment-1.226" : "BuildRiverJoe_0024.338481.wav",
-						"aubiosegment-1.227" : "BuildRiverJoe_0024.389637.wav",
-						"aubiosegment-1.228" : "BuildRiverJoe_0024.621474.wav",
-						"aubiosegment-1.229" : "BuildRiverJoe_0024.769546.wav",
-						"aubiosegment-1.230" : "BuildRiverJoe_0024.874626.wav",
-						"aubiosegment-1.231" : "BuildRiverJoe_0025.007415.wav",
-						"aubiosegment-1.232" : "BuildRiverJoe_0025.026667.wav",
-						"aubiosegment-1.233" : "BuildRiverJoe_0025.131361.wav",
-						"aubiosegment-1.234" : "BuildRiverJoe_0025.155941.wav",
-						"aubiosegment-1.235" : "BuildRiverJoe_0025.377120.wav",
-						"aubiosegment-1.236" : "BuildRiverJoe_0025.568707.wav",
-						"aubiosegment-1.237" : "BuildRiverJoe_0025.650272.wav",
-						"aubiosegment-1.238" : "BuildRiverJoe_0025.743719.wav",
-						"aubiosegment-1.239" : "BuildRiverJoe_0025.898912.wav",
-						"aubiosegment-1.240" : "BuildRiverJoe_0026.162245.wav",
-						"aubiosegment-1.241" : "BuildRiverJoe_0026.264853.wav",
-						"aubiosegment-1.242" : "BuildRiverJoe_0026.399615.wav",
-						"aubiosegment-1.243" : "BuildRiverJoe_0026.435102.wav",
-						"aubiosegment-1.244" : "BuildRiverJoe_0026.548685.wav",
-						"aubiosegment-1.245" : "BuildRiverJoe_0026.701020.wav",
-						"aubiosegment-1.246" : "BuildRiverJoe_0026.787256.wav",
-						"aubiosegment-1.247" : "BuildRiverJoe_0026.829569.wav",
-						"aubiosegment-1.248" : "BuildRiverJoe_0026.954966.wav",
-						"aubiosegment-1.249" : "BuildRiverJoe_0027.041497.wav",
-						"aubiosegment-1.250" : "BuildRiverJoe_0027.087846.wav",
-						"aubiosegment-1.251" : "BuildRiverJoe_0027.210975.wav",
-						"aubiosegment-1.252" : "BuildRiverJoe_0027.435011.wav",
-						"aubiosegment-1.253" : "BuildRiverJoe_0027.469252.wav",
-						"aubiosegment-1.254" : "BuildRiverJoe_0027.518073.wav",
-						"aubiosegment-1.255" : "BuildRiverJoe_0027.833492.wav",
-						"aubiosegment-1.256" : "BuildRiverJoe_0027.988050.wav",
-						"aubiosegment-1.257" : "BuildRiverJoe_0028.086621.wav",
-						"aubiosegment-1.258" : "BuildRiverJoe_0028.215533.wav",
-						"aubiosegment-1.259" : "BuildRiverJoe_0028.354649.wav",
-						"aubiosegment-1.260" : "BuildRiverJoe_0028.374059.wav",
-						"aubiosegment-1.261" : "BuildRiverJoe_0028.605170.wav",
-						"aubiosegment-1.262" : "BuildRiverJoe_0028.638254.wav",
-						"aubiosegment-1.263" : "BuildRiverJoe_0028.721270.wav",
-						"aubiosegment-1.264" : "BuildRiverJoe_0028.847506.wav",
-						"aubiosegment-1.265" : "BuildRiverJoe_0028.985873.wav",
-						"aubiosegment-1.266" : "BuildRiverJoe_0029.109025.wav",
-						"aubiosegment-1.267" : "BuildRiverJoe_0029.227959.wav",
-						"aubiosegment-1.268" : "BuildRiverJoe_0029.281905.wav",
-						"aubiosegment-1.269" : "BuildRiverJoe_0029.324671.wav",
-						"aubiosegment-1.270" : "BuildRiverJoe_0029.392154.wav",
-						"aubiosegment-1.271" : "BuildRiverJoe_0029.636417.wav",
-						"aubiosegment-1.272" : "BuildRiverJoe_0029.708639.wav",
-						"aubiosegment-1.273" : "BuildRiverJoe_0029.742290.wav",
-						"aubiosegment-1.274" : "BuildRiverJoe_0029.900136.wav",
-						"aubiosegment-1.275" : "BuildRiverJoe_0029.950023.wav",
-						"aubiosegment-1.276" : "BuildRiverJoe_0030.009342.wav",
-						"aubiosegment-1.277" : "BuildRiverJoe_0030.033719.wav",
-						"aubiosegment-1.278" : "BuildRiverJoe_0030.236190.wav",
-						"aubiosegment-1.279" : "BuildRiverJoe_0030.267551.wav",
-						"aubiosegment-1.280" : "BuildRiverJoe_0030.287188.wav",
-						"aubiosegment-1.281" : "BuildRiverJoe_0030.518957.wav",
-						"aubiosegment-1.282" : "BuildRiverJoe_0030.667007.wav",
-						"aubiosegment-1.283" : "BuildRiverJoe_0030.772200.wav",
-						"aubiosegment-1.284" : "BuildRiverJoe_0030.904308.wav",
-						"aubiosegment-1.285" : "BuildRiverJoe_0030.924422.wav",
-						"aubiosegment-1.286" : "BuildRiverJoe_0031.029184.wav",
-						"aubiosegment-1.287" : "BuildRiverJoe_0031.053447.wav",
-						"aubiosegment-1.288" : "BuildRiverJoe_0031.274626.wav",
-						"aubiosegment-1.289" : "BuildRiverJoe_0031.466508.wav",
-						"aubiosegment-1.290" : "BuildRiverJoe_0031.547868.wav",
-						"aubiosegment-1.291" : "BuildRiverJoe_0031.640998.wav",
-						"aubiosegment-1.292" : "BuildRiverJoe_0031.796508.wav",
-						"aubiosegment-1.293" : "BuildRiverJoe_0032.059637.wav",
-						"aubiosegment-1.294" : "BuildRiverJoe_0032.162472.wav",
-						"aubiosegment-1.295" : "BuildRiverJoe_0032.297052.wav",
-						"aubiosegment-1.296" : "BuildRiverJoe_0032.332789.wav",
-						"aubiosegment-1.297" : "BuildRiverJoe_0032.445918.wav",
-						"aubiosegment-1.298" : "BuildRiverJoe_0032.598277.wav",
-						"aubiosegment-1.299" : "BuildRiverJoe_0032.685170.wav",
-						"aubiosegment-1.300" : "BuildRiverJoe_0032.726440.wav",
-						"aubiosegment-1.301" : "BuildRiverJoe_0032.851927.wav",
-						"aubiosegment-1.302" : "BuildRiverJoe_0032.939116.wav",
-						"aubiosegment-1.303" : "BuildRiverJoe_0032.985170.wav",
-						"aubiosegment-1.304" : "BuildRiverJoe_0033.108571.wav",
-						"aubiosegment-1.305" : "BuildRiverJoe_0033.332630.wav",
-						"aubiosegment-1.306" : "BuildRiverJoe_0033.366553.wav",
-						"aubiosegment-1.307" : "BuildRiverJoe_0033.415828.wav",
-						"aubiosegment-1.308" : "BuildRiverJoe_0033.730862.wav",
-						"aubiosegment-1.309" : "BuildRiverJoe_0033.885760.wav",
-						"aubiosegment-1.310" : "BuildRiverJoe_0033.984240.wav",
-						"aubiosegment-1.311" : "BuildRiverJoe_0034.113129.wav",
-						"aubiosegment-1.312" : "BuildRiverJoe_0034.252086.wav",
-						"aubiosegment-1.313" : "BuildRiverJoe_0034.271338.wav",
-						"aubiosegment-1.314" : "BuildRiverJoe_0034.502540.wav",
-						"aubiosegment-1.315" : "BuildRiverJoe_0034.535986.wav",
-						"aubiosegment-1.316" : "BuildRiverJoe_0034.618934.wav",
-						"aubiosegment-1.317" : "BuildRiverJoe_0034.745057.wav",
-						"aubiosegment-1.318" : "BuildRiverJoe_0034.883583.wav",
-						"aubiosegment-1.319" : "BuildRiverJoe_0035.005714.wav",
-						"aubiosegment-1.320" : "BuildRiverJoe_0035.125193.wav",
-						"aubiosegment-1.321" : "BuildRiverJoe_0035.179138.wav",
-						"aubiosegment-1.322" : "BuildRiverJoe_0035.222200.wav",
-						"aubiosegment-1.323" : "BuildRiverJoe_0035.288821.wav",
-						"aubiosegment-1.324" : "BuildRiverJoe_0035.534263.wav",
-						"aubiosegment-1.325" : "BuildRiverJoe_0035.605828.wav",
-						"aubiosegment-1.326" : "BuildRiverJoe_0035.639819.wav",
-						"aubiosegment-1.327" : "BuildRiverJoe_0035.797642.wav",
-						"aubiosegment-1.328" : "BuildRiverJoe_0035.847302.wav",
-						"aubiosegment-1.329" : "BuildRiverJoe_0035.906984.wav",
-						"aubiosegment-1.330" : "BuildRiverJoe_0035.931224.wav",
-						"aubiosegment-1.331" : "BuildRiverJoe_0036.133855.wav",
-						"aubiosegment-1.332" : "BuildRiverJoe_0036.164762.wav",
-						"aubiosegment-1.333" : "BuildRiverJoe_0036.184717.wav",
-						"aubiosegment-1.334" : "BuildRiverJoe_0036.416417.wav",
-						"aubiosegment-1.335" : "BuildRiverJoe_0036.564467.wav",
-						"aubiosegment-1.336" : "BuildRiverJoe_0036.669683.wav",
-						"aubiosegment-1.337" : "BuildRiverJoe_0036.801361.wav",
-						"aubiosegment-1.338" : "BuildRiverJoe_0036.822132.wav",
-						"aubiosegment-1.339" : "BuildRiverJoe_0036.927029.wav",
-						"aubiosegment-1.340" : "BuildRiverJoe_0036.950975.wav",
-						"aubiosegment-1.341" : "BuildRiverJoe_0037.172132.wav",
-						"aubiosegment-1.342" : "BuildRiverJoe_0037.364354.wav",
-						"aubiosegment-1.343" : "BuildRiverJoe_0037.445510.wav",
-						"aubiosegment-1.344" : "BuildRiverJoe_0037.538458.wav",
-						"aubiosegment-1.345" : "BuildRiverJoe_0037.694218.wav",
-						"aubiosegment-1.346" : "BuildRiverJoe_0037.957075.wav",
-						"aubiosegment-1.347" : "BuildRiverJoe_0038.060068.wav",
-						"aubiosegment-1.348" : "BuildRiverJoe_0038.194422.wav",
-						"aubiosegment-1.349" : "BuildRiverJoe_0038.230499.wav",
-						"aubiosegment-1.350" : "BuildRiverJoe_0038.343243.wav",
-						"aubiosegment-1.351" : "BuildRiverJoe_0038.495624.wav",
-						"aubiosegment-1.352" : "BuildRiverJoe_0038.623492.wav",
-						"aubiosegment-1.353" : "BuildRiverJoe_0038.748753.wav",
-						"aubiosegment-1.354" : "BuildRiverJoe_0038.836757.wav",
-						"aubiosegment-1.355" : "BuildRiverJoe_0038.882132.wav",
-						"aubiosegment-1.356" : "BuildRiverJoe_0039.006145.wav",
-						"aubiosegment-1.357" : "BuildRiverJoe_0039.230113.wav",
-						"aubiosegment-1.358" : "BuildRiverJoe_0039.264082.wav",
-						"aubiosegment-1.359" : "BuildRiverJoe_0039.313605.wav",
-						"aubiosegment-1.360" : "BuildRiverJoe_0039.628299.wav",
-						"aubiosegment-1.361" : "BuildRiverJoe_0039.783515.wav",
-						"aubiosegment-1.362" : "BuildRiverJoe_0039.881791.wav",
-						"aubiosegment-1.363" : "BuildRiverJoe_0040.010680.wav",
-						"aubiosegment-1.364" : "BuildRiverJoe_0040.149388.wav",
-						"aubiosegment-1.365" : "BuildRiverJoe_0040.168435.wav",
-						"aubiosegment-1.366" : "BuildRiverJoe_0040.400000.wav",
-						"aubiosegment-1.367" : "BuildRiverJoe_0040.433878.wav",
-						"aubiosegment-1.368" : "BuildRiverJoe_0040.516689.wav",
-						"aubiosegment-1.369" : "BuildRiverJoe_0040.642698.wav",
-						"aubiosegment-1.370" : "BuildRiverJoe_0040.781361.wav",
-						"aubiosegment-1.371" : "BuildRiverJoe_0040.903039.wav",
-						"aubiosegment-1.372" : "BuildRiverJoe_0041.022426.wav",
-						"aubiosegment-1.373" : "BuildRiverJoe_0041.076327.wav",
-						"aubiosegment-1.374" : "BuildRiverJoe_0041.119615.wav",
-						"aubiosegment-1.375" : "BuildRiverJoe_0041.185578.wav",
-						"aubiosegment-1.376" : "BuildRiverJoe_0041.431973.wav",
-						"aubiosegment-1.377" : "BuildRiverJoe_0041.503129.wav",
-						"aubiosegment-1.378" : "BuildRiverJoe_0041.537392.wav",
-						"aubiosegment-1.379" : "BuildRiverJoe_0041.695238.wav",
-						"aubiosegment-1.380" : "BuildRiverJoe_0041.744490.wav",
-						"aubiosegment-1.381" : "BuildRiverJoe_0041.804671.wav",
-						"aubiosegment-1.382" : "BuildRiverJoe_0041.828776.wav",
-						"aubiosegment-1.383" : "BuildRiverJoe_0042.031497.wav",
-						"aubiosegment-1.384" : "BuildRiverJoe_0042.062154.wav",
-						"aubiosegment-1.385" : "BuildRiverJoe_0042.082245.wav",
-						"aubiosegment-1.386" : "BuildRiverJoe_0042.313878.wav",
-						"aubiosegment-1.387" : "BuildRiverJoe_0042.461882.wav",
-						"aubiosegment-1.388" : "BuildRiverJoe_0042.567120.wav",
-						"aubiosegment-1.389" : "BuildRiverJoe_0042.698617.wav",
-						"aubiosegment-1.390" : "BuildRiverJoe_0042.719773.wav",
-						"aubiosegment-1.391" : "BuildRiverJoe_0042.824898.wav",
-						"aubiosegment-1.392" : "BuildRiverJoe_0042.848526.wav",
-						"aubiosegment-1.393" : "BuildRiverJoe_0043.069660.wav",
-						"aubiosegment-1.394" : "BuildRiverJoe_0043.262222.wav",
-						"aubiosegment-1.395" : "BuildRiverJoe_0043.343129.wav",
-						"aubiosegment-1.396" : "BuildRiverJoe_0043.435964.wav",
-						"aubiosegment-1.397" : "BuildRiverJoe_0043.591837.wav",
-						"aubiosegment-1.398" : "BuildRiverJoe_0043.854535.wav",
-						"aubiosegment-1.399" : "BuildRiverJoe_0043.957596.wav",
-						"aubiosegment-1.400" : "BuildRiverJoe_0044.091723.wav",
-						"aubiosegment-1.401" : "BuildRiverJoe_0044.128231.wav",
-						"aubiosegment-1.402" : "BuildRiverJoe_0044.240340.wav",
-						"aubiosegment-1.403" : "BuildRiverJoe_0044.393084.wav",
-						"aubiosegment-1.404" : "BuildRiverJoe_0044.520658.wav",
-						"aubiosegment-1.405" : "BuildRiverJoe_0044.645896.wav",
-						"aubiosegment-1.406" : "BuildRiverJoe_0044.734036.wav",
-						"aubiosegment-1.407" : "BuildRiverJoe_0044.779274.wav",
-						"aubiosegment-1.408" : "BuildRiverJoe_0044.903764.wav"
+						"aubiosegment-1.1" : "Sans_0000.030794.wav",
+						"aubiosegment-1.2" : "Sans_0000.278390.wav",
+						"aubiosegment-1.3" : "Sans_0000.639252.wav",
+						"aubiosegment-1.4" : "Sans_0000.977279.wav",
+						"aubiosegment-1.5" : "Sans_0001.749274.wav",
+						"aubiosegment-1.6" : "Sans_0003.722472.wav",
+						"aubiosegment-1.7" : "Sans_0008.187324.wav",
+						"aubiosegment-1.8" : "Sans_0012.559478.wav",
+						"aubiosegment-1.9" : "Sans_0012.965760.wav",
+						"aubiosegment-1.10" : "Sans_0020.586032.wav",
+						"aubiosegment-1.11" : "Sans_0026.392608.wav",
+						"aubiosegment-1.12" : "Sans_0027.669388.wav",
+						"aubiosegment-1.13" : "Sans_0031.183039.wav",
+						"aubiosegment-1.14" : "Sans_0034.020998.wav",
+						"aubiosegment-1.15" : "Sans_0035.332041.wav",
+						"aubiosegment-1.16" : "Sans_0036.036100.wav",
+						"aubiosegment-1.17" : "Sans_0036.760023.wav",
+						"aubiosegment-1.18" : "Sans_0037.982766.wav",
+						"aubiosegment-1.19" : "Sans_0039.604853.wav",
+						"aubiosegment-1.20" : "Sans_0043.786168.wav",
+						"aubiosegment-1.21" : "Sans_0045.082948.wav",
+						"aubiosegment-1.22" : "Sans_0046.993129.wav",
+						"aubiosegment-1.23" : "Sans_0050.809819.wav",
+						"aubiosegment-1.24" : "Sans_0055.660227.wav",
+						"aubiosegment-1.25" : "Sans_0056.193832.wav",
+						"aubiosegment-1.26" : "Sans_0056.269955.wav",
+						"aubiosegment-1.27" : "Sans_0057.489274.wav",
+						"aubiosegment-1.28" : "Sans_0065.830181.wav",
+						"aubiosegment-1.29" : "Sans_0069.727347.wav",
+						"aubiosegment-1.30" : "Sans_0078.817528.wav",
+						"aubiosegment-1.31" : "Sans_0079.916735.wav",
+						"aubiosegment-1.32" : "Sans_0080.829002.wav",
+						"aubiosegment-1.33" : "Sans_0080.853900.wav",
+						"aubiosegment-1.34" : "Sans_0085.900113.wav",
+						"aubiosegment-1.35" : "Sans_0087.073288.wav",
+						"aubiosegment-1.36" : "Sans_0089.184127.wav",
+						"aubiosegment-1.37" : "Sans_0092.652812.wav",
+						"aubiosegment-1.38" : "Sans_0100.823764.wav",
+						"aubiosegment-1.39" : "Sans_0102.286281.wav",
+						"aubiosegment-1.40" : "Sans_0104.754807.wav",
+						"aubiosegment-1.41" : "Sans_0107.310136.wav",
+						"aubiosegment-1.42" : "Sans_0108.733628.wav",
+						"aubiosegment-1.43" : "Sans_0110.492268.wav",
+						"aubiosegment-1.44" : "Sans_0112.328254.wav",
+						"aubiosegment-1.45" : "Sans_0112.758118.wav",
+						"aubiosegment-1.46" : "Sans_0113.946916.wav",
+						"aubiosegment-1.47" : "Sans_0115.007755.wav",
+						"aubiosegment-1.48" : "Sans_0116.327982.wav",
+						"aubiosegment-1.49" : "Sans_0119.155624.wav",
+						"aubiosegment-1.50" : "Sans_0123.730113.wav",
+						"aubiosegment-1.51" : "Sans_0123.851179.wav",
+						"aubiosegment-1.52" : "Sans_0124.413991.wav",
+						"aubiosegment-1.53" : "Sans_0125.472993.wav",
+						"aubiosegment-1.54" : "Sans_0129.818027.wav",
+						"aubiosegment-1.55" : "Sans_0131.325488.wav",
+						"aubiosegment-1.56" : "Sans_0131.725397.wav",
+						"aubiosegment-1.57" : "Sans_0132.890113.wav",
+						"aubiosegment-1.58" : "Sans_0133.104399.wav",
+						"aubiosegment-1.59" : "Sans_0133.608549.wav",
+						"aubiosegment-1.60" : "Sans_0135.024354.wav",
+						"aubiosegment-1.61" : "Sans_0137.148685.wav",
+						"aubiosegment-1.62" : "Sans_0137.486236.wav",
+						"aubiosegment-1.63" : "Sans_0139.154376.wav",
+						"aubiosegment-1.64" : "Sans_0140.275918.wav",
+						"aubiosegment-1.65" : "Sans_0141.403583.wav",
+						"aubiosegment-1.66" : "Sans_0142.541134.wav",
+						"aubiosegment-1.67" : "Sans_0143.692245.wav",
+						"aubiosegment-1.68" : "Sans_0154.690363.wav",
+						"aubiosegment-1.69" : "Sans_0154.824580.wav",
+						"aubiosegment-1.70" : "Sans_0155.100748.wav",
+						"aubiosegment-1.71" : "Sans_0155.270431.wav",
+						"aubiosegment-1.72" : "Sans_0156.329977.wav",
+						"aubiosegment-1.73" : "Sans_0156.360408.wav",
+						"aubiosegment-1.74" : "Sans_0156.913288.wav",
+						"aubiosegment-1.75" : "Sans_0157.512698.wav",
+						"aubiosegment-1.76" : "Sans_0158.624014.wav",
+						"aubiosegment-1.77" : "Sans_0159.083923.wav",
+						"aubiosegment-1.78" : "Sans_0159.692018.wav",
+						"aubiosegment-1.79" : "Sans_0160.879070.wav",
+						"aubiosegment-1.80" : "Sans_0161.137687.wav",
+						"aubiosegment-1.81" : "Sans_0161.508299.wav",
+						"aubiosegment-1.82" : "Sans_0163.062472.wav",
+						"aubiosegment-1.83" : "Sans_0165.360272.wav",
+						"aubiosegment-1.84" : "Sans_0165.668458.wav",
+						"aubiosegment-1.85" : "Sans_0166.441474.wav",
+						"aubiosegment-1.86" : "Sans_0167.498390.wav",
+						"aubiosegment-1.87" : "Sans_0167.619252.wav",
+						"aubiosegment-1.88" : "Sans_0168.691020.wav",
+						"aubiosegment-1.89" : "Sans_0169.845306.wav",
+						"aubiosegment-1.90" : "Sans_0172.018980.wav",
+						"aubiosegment-1.91" : "Sans_0173.424467.wav",
+						"aubiosegment-1.92" : "Sans_0173.797052.wav",
+						"aubiosegment-1.93" : "Sans_0174.151429.wav",
+						"aubiosegment-1.94" : "Sans_0174.731111.wav",
+						"aubiosegment-1.95" : "Sans_0175.275669.wav",
+						"aubiosegment-1.96" : "Sans_0175.296236.wav",
+						"aubiosegment-1.97" : "Sans_0175.899819.wav",
+						"aubiosegment-1.98" : "Sans_0176.413946.wav",
+						"aubiosegment-1.99" : "Sans_0176.455601.wav",
+						"aubiosegment-1.100" : "Sans_0177.584059.wav",
+						"aubiosegment-1.101" : "Sans_0178.151361.wav",
+						"aubiosegment-1.102" : "Sans_0178.525873.wav",
+						"aubiosegment-1.103" : "Sans_0178.715079.wav",
+						"aubiosegment-1.104" : "Sans_0179.074263.wav",
+						"aubiosegment-1.105" : "Sans_0181.145918.wav",
+						"aubiosegment-1.106" : "Sans_0182.215510.wav",
+						"aubiosegment-1.107" : "Sans_0182.363197.wav",
+						"aubiosegment-1.108" : "Sans_0183.351474.wav",
+						"aubiosegment-1.109" : "Sans_0183.434376.wav",
+						"aubiosegment-1.110" : "Sans_0184.033424.wav",
+						"aubiosegment-1.111" : "Sans_0185.813537.wav",
+						"aubiosegment-1.112" : "Sans_0187.025896.wav",
+						"aubiosegment-1.113" : "Sans_0188.250023.wav",
+						"aubiosegment-1.114" : "Sans_0189.970567.wav",
+						"aubiosegment-1.115" : "Sans_0190.576372.wav",
+						"aubiosegment-1.116" : "Sans_0191.751542.wav",
+						"aubiosegment-1.117" : "Sans_0192.885011.wav",
+						"aubiosegment-1.118" : "Sans_0192.930975.wav",
+						"aubiosegment-1.119" : "Sans_0194.005896.wav",
+						"aubiosegment-1.120" : "Sans_0195.220431.wav",
+						"aubiosegment-1.121" : "Sans_0197.604490.wav",
+						"aubiosegment-1.122" : "Sans_0198.730635.wav",
+						"aubiosegment-1.123" : "Sans_0198.779342.wav",
+						"aubiosegment-1.124" : "Sans_0205.571701.wav",
+						"aubiosegment-1.125" : "Sans_0206.715374.wav",
+						"aubiosegment-1.126" : "Sans_0207.509501.wav",
+						"aubiosegment-1.127" : "Sans_0207.795011.wav",
+						"aubiosegment-1.128" : "Sans_0207.902562.wav",
+						"aubiosegment-1.129" : "Sans_0208.909320.wav",
+						"aubiosegment-1.130" : "Sans_0209.995147.wav",
+						"aubiosegment-1.131" : "Sans_0210.094626.wav",
+						"aubiosegment-1.132" : "Sans_0210.711746.wav",
+						"aubiosegment-1.133" : "Sans_0211.209274.wav",
+						"aubiosegment-1.134" : "Sans_0211.271542.wav",
+						"aubiosegment-1.135" : "Sans_0212.360544.wav",
+						"aubiosegment-1.136" : "Sans_0212.392653.wav",
+						"aubiosegment-1.137" : "Sans_0213.513628.wav",
+						"aubiosegment-1.138" : "Sans_0214.073673.wav",
+						"aubiosegment-1.139" : "Sans_0215.747732.wav",
+						"aubiosegment-1.140" : "Sans_0216.534240.wav",
+						"aubiosegment-1.141" : "Sans_0216.709841.wav",
+						"aubiosegment-1.142" : "Sans_0217.955442.wav",
+						"aubiosegment-1.143" : "Sans_0218.631224.wav",
+						"aubiosegment-1.144" : "Sans_0218.832880.wav",
+						"aubiosegment-1.145" : "Sans_0220.848866.wav",
+						"aubiosegment-1.146" : "Sans_0222.540544.wav",
+						"aubiosegment-1.147" : "Sans_0223.733492.wav",
+						"aubiosegment-1.148" : "Sans_0224.244467.wav",
+						"aubiosegment-1.149" : "Sans_0224.809456.wav",
+						"aubiosegment-1.150" : "Sans_0225.923855.wav",
+						"aubiosegment-1.151" : "Sans_0227.048458.wav",
+						"aubiosegment-1.152" : "Sans_0228.136122.wav",
+						"aubiosegment-1.153" : "Sans_0229.272132.wav",
+						"aubiosegment-1.154" : "Sans_0230.405556.wav",
+						"aubiosegment-1.155" : "Sans_0230.934240.wav",
+						"aubiosegment-1.156" : "Sans_0231.493832.wav",
+						"aubiosegment-1.157" : "Sans_0232.603628.wav",
+						"aubiosegment-1.158" : "Sans_0233.707052.wav",
+						"aubiosegment-1.159" : "Sans_0234.798186.wav",
+						"aubiosegment-1.160" : "Sans_0235.321814.wav",
+						"aubiosegment-1.161" : "Sans_0235.824059.wav",
+						"aubiosegment-1.162" : "Sans_0235.855238.wav",
+						"aubiosegment-1.163" : "Sans_0236.875737.wav",
+						"aubiosegment-1.164" : "Sans_0237.449252.wav",
+						"aubiosegment-1.165" : "Sans_0237.483129.wav",
+						"aubiosegment-1.166" : "Sans_0237.994240.wav",
+						"aubiosegment-1.167" : "Sans_0239.546032.wav",
+						"aubiosegment-1.168" : "Sans_0240.150363.wav",
+						"aubiosegment-1.169" : "Sans_0240.699728.wav",
+						"aubiosegment-1.170" : "Sans_0241.197392.wav",
+						"aubiosegment-1.171" : "Sans_0241.777211.wav",
+						"aubiosegment-1.172" : "Sans_0242.661565.wav",
+						"aubiosegment-1.173" : "Sans_0243.026327.wav",
+						"aubiosegment-1.174" : "Sans_0243.371406.wav",
+						"aubiosegment-1.175" : "Sans_0244.476168.wav",
+						"aubiosegment-1.176" : "Sans_0245.015215.wav",
+						"aubiosegment-1.177" : "Sans_0245.039773.wav",
+						"aubiosegment-1.178" : "Sans_0245.554580.wav",
+						"aubiosegment-1.179" : "Sans_0245.591451.wav",
+						"aubiosegment-1.180" : "Sans_0246.129546.wav",
+						"aubiosegment-1.181" : "Sans_0246.662925.wav",
+						"aubiosegment-1.182" : "Sans_0246.707506.wav",
+						"aubiosegment-1.183" : "Sans_0247.289592.wav",
+						"aubiosegment-1.184" : "Sans_0247.807302.wav",
+						"aubiosegment-1.185" : "Sans_0247.852313.wav",
+						"aubiosegment-1.186" : "Sans_0248.422744.wav",
+						"aubiosegment-1.187" : "Sans_0248.977438.wav",
+						"aubiosegment-1.188" : "Sans_0251.290884.wav"
 					}
 ,
 					"fontname" : "Arial",
@@ -3403,6 +3424,55 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-132", 0 ],
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-120", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-120", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-135", 0 ],
+					"source" : [ "obj-120", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-125", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-126", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-79", 1 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -3410,8 +3480,78 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 1 ],
+					"source" : [ "obj-130", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-141", 0 ],
+					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-142", 0 ],
+					"source" : [ "obj-133", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-143", 0 ],
+					"source" : [ "obj-134", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"source" : [ "obj-135", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-142", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-143", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-144", 0 ]
 				}
 
 			}
@@ -3526,6 +3666,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-259", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 1 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -3624,6 +3778,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"order" : 1,
 					"source" : [ "obj-4", 0 ]
@@ -3675,8 +3836,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"source" : [ "obj-47", 1 ]
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -3787,8 +3948,50 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-72", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-75", 1 ]
 				}
 
 			}
@@ -3892,7 +4095,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 1 ],
+					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-92", 1 ]
 				}
 
@@ -3976,8 +4179,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
